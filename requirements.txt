@@ -3,3 +3,6 @@ fairscale
 fire
 tiktoken==0.4.0
 blobfile
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
